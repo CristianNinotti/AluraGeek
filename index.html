@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Cristian Ninotti</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">AluraGeek</div>
+    </header>
+    <main>
+        <section class="product-list">
+            <h2>Funko Pop - Muñecos de Dota 2</h2>
+            <div id="products" class="products-grid"></div>
+        </section>
+        <section class="add-product">
+            <h2>AGREGA PRODUCTO!</h2>
+            <form id="productForm">
+                <input type="text" id="productName" placeholder="Nombre..." required>
+                <input type="number" id="productPrice" placeholder="Precio..." required>
+                <input type="file" id="productImageInput" accept="image/*" required>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Cristian Ninotti</p>
+        <p>&copy; Junio 2024</p>
+    </footer>
+</body>
+</html>
